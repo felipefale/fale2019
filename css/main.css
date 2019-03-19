@@ -1867,8 +1867,9 @@ input::-moz-focus-inner {
   }
 
   .header-logo img {
-    width: 120px;
-    height: 34px;
+    width: 160px;
+    height: 100px;
+    object-fit: contain;
   }
 
   .s-header.sticky .header-logo {
