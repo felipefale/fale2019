@@ -1952,6 +1952,13 @@ input::-moz-focus-inner {
     display: block !important;
   }
 
+  .header-logo img {
+    max-height: 70px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+
 }
 
 
@@ -2314,7 +2321,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width:1400px) {
   .home-content h1 {
-    font-size: 6rem;
+    font-size: 5.5rem;
   }
 
 }
